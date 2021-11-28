@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop" : true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"],
+      "sections/*": ["src/sections/*"],
+      "components/*": ["src/components/*"],
+      "template/*": ["src/template/*"],
+      "types/*": ["src/types/*"],
+    },
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  }
+}
